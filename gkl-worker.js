@@ -16,7 +16,7 @@
  */
 
 var IS_WORKER = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;
-if (IS_WORKER) importScripts('https://cdn.jsdelivr.net/npm/three@0.183.2/build/three.min.js');
+if (IS_WORKER) importScripts('https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js');
 
 /* ═══ GPU DETECTION ═══ */
 let _dpr = 2;
